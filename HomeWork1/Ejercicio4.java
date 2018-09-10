@@ -7,7 +7,13 @@ public class Ejercicio4{
    B=sc.nextDouble();
    System.out.println("Introduce la hipotenusa del triangulo-rectangulo:");
    H=sc.nextDouble();
-   C = Math.SQRT ((B*B - H*H));
-   System.out.println("el cateto faltante es igual a:"+ C);
+   C = Math.sqrt (B*B - H*H);
+    AC = (3.1416*(H*H)/2);
+
+   AT = (C*H/2)*2;
+
+  area = AC+AT;
+
+   System.out.println("El area de la figura es: "+ area);
  }
 }
